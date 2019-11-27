@@ -41,7 +41,7 @@ facebook:
   publisher: https://www.facebook.com/klaytn.official
 
 # Build settings
-markdown: kramdown
+markdown: commonMarkGhPages
 theme: minima
 kramdown:
   parse_block_html: false
