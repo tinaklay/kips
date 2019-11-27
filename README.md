@@ -9,6 +9,8 @@ Klaytn Improvement Proposals (KIPs) describe standards for the Klaytn platform, 
  3. Add your KIP to your fork of the repository. There is a [template KIP here](https://github.com/klaytn/kips/blob/master/kip-template.md).
  4. Submit a Pull Request to Klaytn's [KIPs repository](https://github.com/klaytn/kips).
 
+<p><details><summary>read more</summary>
+ 
 Your first PR should be a first draft of the final KIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new KIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the KIP as a whole.
 
 If your KIP requires images, the image files should be included in a subdirectory of the `assets` folder for that KIP as follows: `assets/kip-N` (where **N** is to be replaced with the KIP number). When linking to an image in the KIP, use relative links such as `../assets/kip-1/image.png`.
@@ -19,6 +21,8 @@ When you believe your KIP is mature and ready to progress past the draft phase, 
 
  - Open a PR changing the state of your KIP to 'Last Call'. An editor will review your draft and see if there is a rough consensus to move forward. If there are significant issues with the KIP - they may close the PR and request that you fix the issues in the draft before trying again.
  - Before moving to 'Last Call', a reference implementation of the KIP should be provided. 
+
+</details></p>
 
 ## KIP Status Terms
 
